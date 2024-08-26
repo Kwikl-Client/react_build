@@ -159,8 +159,14 @@ section.top-bar.fixed-top .row {
     background-color: black;
 }
 .error-class {
-    color: white;
+    color: #ff0000;
     background-color: #000;
+    font-size: 14px;
+    font-family: "Montserrat-Regular";
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
+    font-weight: normal;
+    margin-top: 4px;
 }
 .fixed-bottom {
     background-color: black;
@@ -279,8 +285,9 @@ section.top-bar.fixed-top .row {
     border: 1px solid rgb(50 205 50 / 30%);
     /* padding: 18px 35px 18px 18px; */
     padding: 12px 16px;
-    border-radius: 25px;
+    border-radius: 10px;
     position: relative;
+    padding-bottom: 0px;
 }
 .year-box h4 {
     font-family: "Montserrat-SemiBold";
@@ -305,13 +312,13 @@ section.top-bar.fixed-top .row {
 .level-content .weekly-box h5 {
     background-color: rgb(255 255 255 / 9%);
     font-family: "Montserrat-SemiBold";
-    font-size: 14px;
+    font-size: 10px;
     color: #fff;
     letter-spacing: 1.1px;
     word-spacing: 0.6px;
-    padding: 8px 11px;
-    border-radius: 25px;
-    margin-bottom: 25px;
+    padding: 4px 18px;
+    border-radius: 10px;
+    margin-bottom: 4px;
 }
 .year-box h6,
 .monthly-box h6,
@@ -326,7 +333,7 @@ section.top-bar.fixed-top .row {
 .combo-offer-img {
     position: absolute;
     top: 37%;
-    right: -20%;
+    right: -8%;
 }
 .mid-section .combo-text p,
 .mid-section .offer-text p {
@@ -340,21 +347,22 @@ section.top-bar.fixed-top .row {
 .combo-text {
     position: absolute;
     top: 37.5%;
-    right: -15%;
+    right: -2%;
     transform: rotate(-6deg);
 }
 .offer-text {
     position: absolute;
-    top: 46%;
-    right: -13%;
+    top: 48%;
+    right: 0%;
 }
 /*.offer-boxes .col-sm-12{display: flex; justify-content: center;}*/
 .monthly-box.blue-box {
     border: 1px solid #096ef9;
     /* padding: 18px; */
     padding: 12px 16px;
-    border-radius: 25px;
+    border-radius: 10px;
     position: relative;
+    padding-bottom: 0px;
 }
 .monthly-box h4 {
     font-family: "Montserrat-Regular";
@@ -369,8 +377,9 @@ section.top-bar.fixed-top .row {
     border: 1px solid #ffd700;
     /* padding: 18px; */
     padding: 12px 16px;
-    border-radius: 25px;
+    border-radius: 10px;
     position: relative;
+    padding-bottom: 0px;
 }
 .menu-button {
     color: #708090 !important;
@@ -551,7 +560,7 @@ section.newsletter-sec {
     margin-bottom: 190px;
 }
 span.yearly-combo-popup {
-    margin-left: 2px;
+    margin-left: 4px;
 }
 /* .banner-slider .carousel-item {
     min-height: 650px;
@@ -1348,6 +1357,14 @@ h4.yellow-text-heading {
     letter-spacing: 0.6px;
     word-spacing: 0.8px;
 }
+.combo-text p {
+    color: white;
+    font-size: 12px !important;
+}
+.offer-text p {
+    color: white;
+    font-size: 12px !important;
+}
 .blue-checkmark.yellow-check li:before {
     background: url(../images/yellow-check-mark.svg);
 }
@@ -1402,7 +1419,7 @@ ul.blue-checkmark {
     margin: 6px 0px;
 }
 section.mid-section {
-    padding: 90px 0px 0px;
+    padding: 100px 0px 0px;
     margin-bottom: 0px;
 }
 section.banner-slider {
@@ -1619,7 +1636,8 @@ footer .carousel-indicators .active {
     background-color: #d22f26;
 }
 .the-book-img {
-    height: 185px;
+    height: 205px;
+    margin-top: -10px;
 }
 /* ============ Light Mode Start ==========================*/
 body.bg-white .menu-list {
@@ -1730,7 +1748,6 @@ body.bg-white .c-indicators {
     background-color: #fff;
 }
 body.bg-white .error-class {
-    color: #000;
     background-color: white;
 }
 body.bg-white .menu-button {
@@ -1783,6 +1800,9 @@ body.bg-white .free-trial-modal .modal-content svg path {
 }
 body.bg-white .free-trial-modal .modal-header {
     padding-right: 0;
+}
+body.bg-white .yellow-text-heading {
+    color: #ff8c00 !important;
 }
 body.bg-white .search-input input[type="text"],
 body.bg-white .search-input .input-group-text,
@@ -1963,7 +1983,7 @@ body.bg-white :-moz-placeholder {
 @media (max-width: 480px) {
     .combo-offer-img {
         top: 35%;
-        right: -20%;
+        right: -22%;
     }
     .combo-offer-img svg {
         width: 82%;
@@ -1982,7 +2002,7 @@ body.bg-white :-moz-placeholder {
         font-size: 12px !important;
     }
     .offer-text {
-        top: 44%;
+        top: 48%;
         right: -4%;
     }
     .offer-boxes div {
@@ -1996,8 +2016,8 @@ body.bg-white :-moz-placeholder {
         font-size: 20px !important;
     }
     .offer-boxes h5 {
-        font-size: 14px !important;
-        margin-bottom: 20px !important;
+        font-size: 8px !important;
+        margin-bottom: 14px !important;
         margin-left: -6px !important;
     }
     .offer-boxes h6 {
@@ -2121,7 +2141,8 @@ body.bg-white :-moz-placeholder {
     }
     .monthly-box.blue-box,
     .weekly-box.yellow-box,
-    .monthly-box.red-box {
+    .monthly-box.red-box,
+    .year-box {
         padding: 15px;
     }
     .cancel-plan-sec {
@@ -2226,6 +2247,7 @@ body.bg-white :-moz-placeholder {
     .monthly-box.red-box,
     .year-box {
         padding: 12px;
+        padding-bottom: 0px;
     }
     .level-content .monthly-box h6,
     .level-content .weekly-box h6 {
@@ -2234,16 +2256,16 @@ body.bg-white :-moz-placeholder {
     .level-content .monthly-box h5,
     .level-content .weekly-box h5 {
         font-size: 10px;
-        padding: 7px 8px;
+        padding: 4px 10px;
     }
     .the-book-img {
-        height: 172px;
+        height: 192px;
     }
 }
 
 @media (max-width: 390px) {
     .the-book-img {
-        height: 170px;
+        height: 190px;
     }
     .mid-section .sign-in-tip h4 {
         font-size: 10px;
@@ -2289,7 +2311,7 @@ body.bg-white :-moz-placeholder {
 @media (max-width: 375px) {
     .combo-offer-img {
         top: 35%;
-        right: -20%;
+        right: -22%;
     }
     .combo-text {
         top: 37.5%;
@@ -2303,7 +2325,7 @@ body.bg-white :-moz-placeholder {
         color: white;
     }
     .offer-text {
-        top: 45%;
+        top: 48%;
         right: -5%;
     }
     .offer-boxes div {
@@ -2317,8 +2339,8 @@ body.bg-white :-moz-placeholder {
         font-size: 20px !important;
     }
     .offer-boxes h5 {
-        font-size: 14px !important;
-        margin-bottom: 20px !important;
+        font-size: 8px !important;
+        margin-bottom: 4px !important;
         margin-left: -6px !important;
     }
     .offer-boxes h6 {
