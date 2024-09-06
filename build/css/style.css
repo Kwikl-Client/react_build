@@ -50,6 +50,12 @@ footer {
 .privacy-login-tab a.privacy-link {
     margin-right: 30px;
 }
+.banner-slider .carousel-inner {
+    position: relative;
+    width: 84%;
+    overflow: hidden;
+    margin: 0 auto;
+}
 .banner-slider .carousel-caption {
     position: relative;
     left: 0;
@@ -70,12 +76,14 @@ footer {
     word-spacing: 0.6px;
     margin-bottom: 25px;
     font-weight: 600;
+    line-height: 1.5;
+
 }
 .banner-slider .carousel-caption h4,
 .mid-section h4 {
     letter-spacing: 0.3px;
     word-spacing: 0.6px;
-    font-family: "Montserrat-SemiBold";
+    font-family: "Montserrat-regular";
     font-size: 16px;
     line-height: 1.6em;
     padding-right: 15px;
@@ -117,6 +125,15 @@ footer {
 }
 .banner-slider .carousel-indicators .active {
     background-color: #d22f26;
+}
+footer .get-started-btn{
+    width: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 50%;
 }
 .get-started-btn button,
 .get-started-btn button:hover,
@@ -302,7 +319,7 @@ section.top-bar.fixed-top .row {
 .monthly-box h3,
 .weekly-box h3 {
     font-family: "Montserrat-SemiBold";
-    font-size: 26px;
+    font-size: 20px;
     color: #fff;
     letter-spacing: 0.3px;
     word-spacing: 0.6px;
@@ -1304,6 +1321,9 @@ input[type="password"] {
     background-color: transparent;
     color: #c7c7c7;
 }
+#level-one-bg-id{
+    background-image: url('../../public/images/home/p_1.jpg');
+}
 .sort-dropdown .dropdown-menu {
     background-color: transparent;
     padding: 0;
@@ -1601,6 +1621,7 @@ footer .carousel-indicators {
     left: 0;
     right: 0;
     margin: 0;
+    bottom:38px;
     padding: 4px 0px;
 }
 footer .carousel-indicators [data-bs-target] {
@@ -1638,6 +1659,10 @@ footer .carousel-indicators .active {
 .the-book-img {
     height: 205px;
     margin-top: -10px;
+}
+.banner-slider .carousel-item:first-child img{
+    width:90%;
+    margin: 0 auto;
 }
 /* ============ Light Mode Start ==========================*/
 body.bg-white .menu-list {
@@ -1878,7 +1903,11 @@ body.bg-white :-moz-placeholder {
 
 /* ============ Light Mode End ==========================*/
 
-@media (min-width: 2500px) {
+@media (min-width: 800px) {
+    section.newsletter-sec .input-group input[type="text"], input[type="password"] {
+        width: 40%;
+        padding: 9px !important;
+    }
 }
 @media (max-width: 2000px) {
     .play-icon {
@@ -1949,7 +1978,7 @@ body.bg-white :-moz-placeholder {
     }
     section,
     footer {
-        max-width: 100%;
+        max-width: 85%;
     }
     footer {
         padding: 0px 25px;
@@ -1981,6 +2010,18 @@ body.bg-white :-moz-placeholder {
     height: 550px;
 } */
 @media (max-width: 480px) {
+    /* .banner-slider .carousel-item:first-child img{
+        width:150%;
+    } */
+    footer .get-started-btn {
+        bottom: 77%;
+    }
+     #level4-cta{
+        bottom:100%
+     }
+    .banner-slider .carousel-inner {
+        width: 95%;
+    }
     .combo-offer-img {
         top: 35%;
         right: -22%;
@@ -2022,6 +2063,18 @@ body.bg-white :-moz-placeholder {
     }
     .offer-boxes h6 {
         font-size: 12px !important;
+    }
+    footer .carousel-indicators {
+        bottom: 129px;    
+    }
+    .banner-slider .get-started-btn button{
+        width: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        position: absolute;
+        margin-bottom: 0;
+        bottom: 80%;
     }
     /* .h-400 {
         height: 500px !important;
@@ -2134,7 +2187,7 @@ body.bg-white :-moz-placeholder {
     }
     section.newsletter-sec .input-group-text {
         width: 29%;
-        padding: 4px 8px;
+        padding: 4px 6px;
     }
     section.newsletter-sec .input-group input[type="text"] {
         width: 68%;
@@ -2184,7 +2237,7 @@ body.bg-white :-moz-placeholder {
         font-size: 13px;
         letter-spacing: 0.2px;
         word-spacing: 0.3px;
-        padding: 15px 8px;
+        padding: 11px 8px;
     }
     .profile-posted-content h5 {
         font-size: 12px;
@@ -2202,12 +2255,14 @@ body.bg-white :-moz-placeholder {
     section.mid-section.terms-policy-page,
     section.newsletter-sec {
         margin-bottom: 170px;
+        padding-top: 5%;
+
     }
     .error-content {
         padding-bottom: 0;
     }
     section.mid-section {
-        padding: 70px 0px 0px;
+        padding: 100px 0px 0px;
     }
     .faq-sec .search-input input[type="text"] {
         width: 73%;
