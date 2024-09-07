@@ -2064,16 +2064,15 @@ body.bg-white :-moz-placeholder {
     .offer-boxes h6 {
         font-size: 12px !important;
     }
-    footer .carousel-indicators {
+    /* footer .carousel-indicators {
         bottom: 129px;    
-    }
+    } */
     .banner-slider .get-started-btn button{
         width: 85%;
         left: 50%;
         transform: translate(-50%, -50%);
         display: block;
         position: absolute;
-        margin-bottom: 0;
         /* bottom: 80%; */
     }
     /* .h-400 {
