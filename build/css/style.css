@@ -2013,9 +2013,9 @@ body.bg-white :-moz-placeholder {
     /* .banner-slider .carousel-item:first-child img{
         width:150%;
     } */
-    footer .get-started-btn {
+    /* footer .get-started-btn {
         bottom: 77%;
-    }
+    } */
      #level4-cta{
         bottom:100%
      }
@@ -2074,7 +2074,7 @@ body.bg-white :-moz-placeholder {
         display: block;
         position: absolute;
         margin-bottom: 0;
-        bottom: 80%;
+        /* bottom: 80%; */
     }
     /* .h-400 {
         height: 500px !important;
