@@ -637,8 +637,8 @@ span.yearly-combo-popup {
 }
 .secret-code-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 38.5%;
+    left: 38%;
     transform: translate(-50%, -50%);
 }
 .secret-code-text input {
@@ -2123,6 +2123,8 @@ body.bg-white :-moz-placeholder {
     .banner-slider .carousel-caption h3 {
         letter-spacing: 0.3px;
         word-spacing: 0.6px;
+        line-height: 1.5em;
+
     }
     /* .banner-slider .carousel-item {
         min-height: 710px;
@@ -2207,7 +2209,7 @@ body.bg-white :-moz-placeholder {
         padding-bottom: 0;
     }
     section.mid-section {
-        padding: 70px 0px 0px;
+        padding: 115px 0px 0px;
     }
     .faq-sec .search-input input[type="text"] {
         width: 73%;
