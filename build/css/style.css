@@ -314,11 +314,11 @@ section.top-bar.fixed-top .row {
 .level-content .weekly-box h5 {
     background-color: rgb(255 255 255 / 9%);
     font-family: "Montserrat-SemiBold";
-    font-size: 10px;
+    font-size: 9px;
     color: #fff;
     letter-spacing: 1.1px;
     word-spacing: 0.6px;
-    padding: 4px 14px;
+    padding: 4px 12px;
     border-radius: 10px;
     margin-bottom: 4px;
 }
