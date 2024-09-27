@@ -1904,6 +1904,54 @@ body.bg-white :-moz-placeholder {
     color: #4f4f4f;
     opacity: 1;
 }
+section#level--bg-id {
+    margin-top: 25px;
+}
+
+section#level-1-newsletter {
+    margin-bottom: 10%;
+}
+
+section#\#banner-slider-id {
+    padding-top: 10px;
+     margin-bottom: 25px;
+}
+
+section.banner-slider#\#banner-slider-id {
+    padding-top: 14%;
+    padding-bottom: 10%;
+}
+
+section.mid-section#level--bg-id {
+    padding-top: 16%;
+    padding-bottom: 0%;
+}
+.footer-security{
+    margin-bottom: 16%;
+    margin-top: -23%;
+}
+/*section.newsletter-sec {
+    margin-bottom: 30px;
+}*/
+
+ul li strong{font-family: "Montserrat-SemiBold";}
+
+#level--bg-id-section-four {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+#level--bg-id-section-four {
+    margin-bottom: 0;
+    padding-top: 12% !important;
+}
+.carousel-caption.d-none.d-md-block.text-center {
+    display: block !important;
+}
+
+.carousel-caption.d-none.d-md-block.text-start {
+    display: block !important;
+}
 
 /* ============ Light Mode End ==========================*/
 
@@ -2155,7 +2203,7 @@ body.bg-white :-moz-placeholder {
         height: 50px;
     }
     section.banner-slider {
-        padding: 100px 0px 20px;
+        padding: 42px 0px 20px;
         margin-bottom: 130px;
     }
     section.banner-slider .carousel-indicators {
