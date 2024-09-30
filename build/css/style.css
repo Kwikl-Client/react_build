@@ -2340,7 +2340,7 @@ ul li strong{font-family: "Montserrat-SemiBold";}
         letter-spacing: 0.3px;
     }
     .banner-slider .carousel-item {
-        min-height: 730px;
+        min-height: 180px;
     }
     #carousel-inner-book{
         min-height: 300px !important;
