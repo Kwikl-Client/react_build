@@ -2727,7 +2727,7 @@ ul li strong {
     .monthly-box.red-box,
     .year-box {
         padding: 12px;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
     }
 
     .level-content .monthly-box h6,
