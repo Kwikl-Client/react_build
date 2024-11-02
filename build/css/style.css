@@ -33,7 +33,6 @@ p {
 }
 
 body {
-    background-color: #000 !important;
     padding: 15px;
     margin: 0 auto !important;
     max-width: 740px;
@@ -2416,7 +2415,6 @@ ul li strong {
     .offer-boxes h3 {
         font-size: 20px !important;
     }
-
     .offer-boxes h5 {
         font-size: 8px !important;
         margin-bottom: 14px !important;
@@ -2426,7 +2424,7 @@ ul li strong {
     .offer-boxes h6 {
         font-size: 12px !important;
     }
-
+    
     /* .h-400 {
         height: 500px !important;
     } */
@@ -2852,4 +2850,7 @@ ul li strong {
     /* .h-400 {
         height: 500px !important;
     } */
+}
+.priceoffer{
+    font-size: 17px !important;
 }
