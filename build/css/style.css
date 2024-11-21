@@ -133,10 +133,23 @@ footer {
 .banner-slider .carousel-indicators .active {
     background-color: #d22f26;
 }
-.get-started-btn{
+.get-started-btns{
     display: flex;
     gap: 10px;
     justify-content: center;
+}
+.get-started-btns button{
+    width: 47%;
+    background-color: #d22f26;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    padding: 15px 8px;
+    letter-spacing: 0.3px;
+    word-spacing: 0.6px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 16px;
 }
 .get-started-btn button,
 .get-started-btn button:hover,
@@ -146,7 +159,7 @@ footer {
     border: none;
     border-radius: 0;
     color: #fff;
-    width: 47%;
+    width: 100%;
     padding: 15px 8px;
     letter-spacing: 0.3px;
     word-spacing: 0.6px;
