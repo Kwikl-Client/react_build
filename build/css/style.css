@@ -133,7 +133,11 @@ footer {
 .banner-slider .carousel-indicators .active {
     background-color: #d22f26;
 }
-
+.get-started-btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
 .get-started-btn button,
 .get-started-btn button:hover,
 .get-started-btn button:focus {
@@ -142,7 +146,7 @@ footer {
     border: none;
     border-radius: 0;
     color: #fff;
-    width: 100%;
+    width: 47%;
     padding: 15px 8px;
     letter-spacing: 0.3px;
     word-spacing: 0.6px;
