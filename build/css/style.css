@@ -57,7 +57,9 @@ footer {
 /* .privacy-login-tab a.privacy-link {
     margin-right: 30px;
 } */
-
+#carouselInner{
+    transition: transform 20s ease !important; /* 20s for very slow transition */
+}
 .banner-slider .carousel-caption {
     position: relative;
     left: 0;
@@ -67,6 +69,7 @@ footer {
     text-align: left;
     padding: 0;
     text-shadow: none !important;
+    transition: transform 20s ease !important; /* 20s for very slow transition */
     font-weight: normal;
 }
 
