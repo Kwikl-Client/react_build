@@ -2221,7 +2221,7 @@ section#level--bg-id {
 }
 
 section#level-1-newsletter {
-    margin-bottom: 10%;
+    margin-bottom: 0% !important;
 }
 
 section#\#banner-slider-id {
