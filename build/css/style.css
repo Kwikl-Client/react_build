@@ -1663,7 +1663,12 @@ h4.yellow-text-heading {
 .unlock-btn.login-content button {
     margin: 0;
 }
-
+.transform-mindset{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-bottom: 20px;
+}
 ul.blue-checkmark {
     padding: 0;
 }
@@ -1975,7 +1980,7 @@ body.bg-white .user-login ul.dropdown-menu.show li a {
 }
 
 body.bg-white .dropdown-toggle {
-    color: #6b6b6b !important;
+    color: #050505 !important;
 }
 
 body.bg-white .fixed-bottom {
@@ -2000,6 +2005,7 @@ body.bg-white .year-box h3,
 body.bg-white .monthly-box h3,
 body.bg-white .weekly-box h3,
 body.bg-white .year-box h6,
+body.bg-white .transform-mindset,
 body.bg-white .monthly-box h6,
 body.bg-white .weekly-box h6,
 body.bg-white .free-trial-modal h3,
@@ -2027,7 +2033,7 @@ body.bg-white .profile-name h5 a,
 body.bg-white .profile-name h5,
 body.bg-white .edit-save-content ul li a,
 body.bg-white .unlock-register-form label {
-    color: #6b6b6b;
+    color: #050505 !important;
 }
 
 body.bg-white .footer-nav ul li.active a,
@@ -2059,7 +2065,7 @@ body.bg-white .mid-section .terms-content ul li,
 body.bg-white .terms-policy-page p,
 body.bg-white .info-field input[type="text"],
 body.bg-white .register-form-icon a {
-    color: #4f4f4f;
+    color: #050505 !important;
 }
 
 body.bg-white .c-indicators {
