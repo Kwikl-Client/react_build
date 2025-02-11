@@ -1684,6 +1684,130 @@ ul.blue-checkmark {
 .profile-name-number {
     margin: 30px 0px 15px;
 }
+/* VisitorCount.css */
+
+/* Container for the like button and other components */
+.visitor-count-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 4px;
+}
+
+/* Styling for the like button and icon */
+.visitor-count-like-button {
+    cursor: pointer;
+    font-size: 48px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+/* Styling for the like icon */
+.visitor-count-like-icon {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: red;
+    stroke-width: 1;
+}
+
+.visitor-count-like-icon.liked {
+    fill: red;
+}
+
+/* Styling for the likes count */
+.visitor-count-likes-text {
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Modal background and content */
+.visitor-count-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.visitor-count-modal-content {
+    background: black;
+    border: 1px solid #7a7878;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 400px;
+}
+
+.visitor-count-modal-actions {
+    color: white;
+    font-family: 'Montserrat-Regular';
+}
+
+.visitor-count-modal-action-item {
+    cursor: pointer;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.visitor-count-icon {
+    width: 24px;
+    margin-right: 4%;
+}
+
+.visitor-count-modal-action-text {
+    font-size: 14px;
+}
+
+.visitor-count-divider {
+    border-bottom: 1px solid #7a7878;
+    margin: 5px 0;
+}
+
+/* Popup styling */
+.visitor-count-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    border: 1px solid #7a7878;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.visitor-count-popup-content {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.visitor-count-popup-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    fill: green;
+}
+
+.visitor-count-popup-text {
+    font-size: 14px;
+    color: #f4f4f4;
+}
 
 .level-content,
 .tip-content,
@@ -1908,7 +2032,16 @@ footer .carousel-indicators {
     margin: 0;
     padding: 4px 0px;
 }
-
+.list-headins{
+      font-size: 14px;
+      font-family: 'Montserrat-SemiBold';
+      color:"#fff"
+}
+.level-4texts{
+    font-size: 14px;
+    font-family: 'Montserrat-Regular';
+    color:"#c7c7c7"
+}
 footer .carousel-indicators [data-bs-target] {
     height: 9px;
     width: 9px;
@@ -2215,7 +2348,13 @@ body.bg-white ::-moz-placeholder {
     color: #4f4f4f;
     opacity: 1;
 }
-
+body.bg-white .visitor-count-popup-text,
+body.bg-white .visitor-count-likes-text,
+body.bg-white .get-started-btns h4,
+body.bg-white .list-headins,
+body.bg-white .level-4texts{
+    color:#050505 !important;
+}
 body.bg-white :-moz-placeholder {
     /* Firefox 4 - 18 */
     color: #4f4f4f;
