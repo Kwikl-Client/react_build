@@ -2083,13 +2083,17 @@ footer .carousel-indicators .active {
     height: 205px;
     margin-top: -10px;
 }
-
+.highlites{
+    color:#ece7e7
+}
 /* ============ Light Mode Start ==========================*/
 body.bg-white .menu-list {
     background-color: #fff !important;
     color: #292929 !important;
 }
-
+body.bg-white .highlites{
+    color:#8e8787
+}
 body.bg-white .menu-list-item {
     background-color: #fff !important;
 }
@@ -2123,7 +2127,9 @@ body.bg-white .fixed-bottom {
 body.bg-white .coockie-policy {
     background-color: #000;
 }
-
+body.bg-white .banner-slider .carousel-caption .level-content p,
+body.bg-white .mid-section .level-content p,
+body.bg-white p,
 body.bg-white .login-content form input[type="email"],
 body.bg-white .login-content form input[type="password"],
 body.bg-white .sign-in-tip h4,
@@ -2165,7 +2171,11 @@ body.bg-white .menu-page-section ul li.list-group-item,
 body.bg-white .profile-name h5 a,
 body.bg-white .profile-name h5,
 body.bg-white .edit-save-content ul li a,
-body.bg-white .unlock-register-form label {
+body.bg-white .unlock-register-form label,
+body.bg-white .free-trial-modal .popup-content p,
+body.bg-white .profile-reply-content .comment-time p a,
+body.bg-white .comment-time p
+ {
     color: #050505 !important;
 }
 
@@ -2176,20 +2186,16 @@ body.bg-white .footer-nav ul li:hover span {
     transition: 0.3s linear;
 }
 
-body.bg-white p,
+
 body.bg-white .footer-nav ul li span,
 body.bg-white .upgrade-title h5,
-body.bg-white .free-trial-modal .popup-content p,
 body.bg-white .payment-table table td,
 body.bg-white .payment-table table td .dropdown button,
 body.bg-white .sort-dropdown .dropdown-menu li a,
 body.bg-white .question-answer-content h4,
 body.bg-white span.comment-count,
-body.bg-white .comment-time p,
 body.bg-white .profile-reply-content .comment-time p a,
 body.bg-white .comment-reply .dropup ul.dropdown-menu li a,
-body.bg-white .banner-slider .carousel-caption .level-content p,
-body.bg-white .mid-section .level-content p,
 body.bg-white .mid-section .level-content ul li,
 body.bg-white .menu-page-section ul li.list-group-item:last-child,
 body.bg-white .menu-page-section ul.privacy-terms-help li.list-group-item a,
@@ -2198,7 +2204,7 @@ body.bg-white .mid-section .terms-content ul li,
 body.bg-white .terms-policy-page p,
 body.bg-white .info-field input[type="text"],
 body.bg-white .register-form-icon a {
-    color: #050505 !important;
+    color: #8e8787 !important;
 }
 
 body.bg-white .c-indicators {
@@ -2224,18 +2230,18 @@ body.bg-white .menu-list {
 
 body.bg-white .footer-nav .the-book-icon svg {
     fill: #fff;
-    stroke: #292929;
+    stroke: #8e8787;
 }
 
 body.bg-white .top-logo svg,
 body.bg-white .user-login.white-icon svg {
-    fill: #292929;
+    fill: #8e8787;
 }
 
 body.bg-white .footer-nav svg.footer-icon,
 body.bg-white .close-coockie.text-end svg path {
-    fill: #292929;
-    stroke: #292929;
+    fill: #8e8787;
+    stroke: #8e8787;
 }
 
 body.bg-white .footer-nav ul li.active svg.footer-icon,
