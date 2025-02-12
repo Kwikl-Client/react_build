@@ -2237,7 +2237,9 @@ body.bg-white .top-logo svg,
 body.bg-white .user-login.white-icon svg {
     fill: #8e8787;
 }
-
+body.bg-white .top-logo svg {
+    fill: #363636 !important;
+}
 body.bg-white .footer-nav svg.footer-icon,
 body.bg-white .close-coockie.text-end svg path {
     fill: #8e8787;
