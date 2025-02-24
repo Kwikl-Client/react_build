@@ -731,7 +731,7 @@ span.yearly-combo-popup {
 }
 
 .user-login.blue-icon svg {
-    fill: #007bff;
+    /* fill: #007bff; */
     margin-right: 4px;
     margin-bottom: 2px;
 }
