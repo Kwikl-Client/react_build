@@ -54,13 +54,10 @@ footer {
     transition: 0.3s linear;
 }
 
-/* .privacy-login-tab a.privacy-link {
-    margin-right: 30px;
+/* #carouselInner{
+    transition: transform 20s ease !important; 
 } */
-#carouselInner{
-    transition: transform 20s ease !important; /* 20s for very slow transition */
-}
-.banner-slider .carousel-caption {
+.banner-slider .slider-caption {
     position: relative;
     left: 0;
     right: 0;
@@ -73,18 +70,18 @@ footer {
     font-weight: normal;
 }
 
-.banner-slider .carousel-caption h3,
+.banner-slider .slider-caption h3,
 .main-heading {
     color: #d22f26;
     font-family: "Montserrat-SemiBold";
     font-size: 18px;
     letter-spacing: 0.3px;
     word-spacing: 0.6px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     font-weight: 600;
 }
 
-.banner-slider .carousel-caption h4,
+.banner-slider .slider-caption h4,
 .mid-section h4 {
     letter-spacing: 0.3px;
     word-spacing: 0.6px;
@@ -94,17 +91,17 @@ footer {
     padding-right: 15px;
     font-weight: normal;
     color: #f4f4f4;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
-.banner-slider .carousel-caption .level-content h5,
+.banner-slider .slider-caption .level-content h5,
 .mid-section .level-content h5 {
     font-family: "Montserrat-SemiBold";
     color: #d22f26;
     font-size: 16px;
 }
 
-.banner-slider .carousel-caption .level-content p,
+.banner-slider .slider-caption .level-content p,
 .mid-section .level-content p,
 .mid-section .level-content ul li {
     font-size: 15px;
@@ -115,7 +112,7 @@ footer {
     font-weight: normal;
 }
 
-.banner-slider .carousel-caption .level-content h6 {
+.banner-slider .slider-caption .level-content h6 {
     font-family: "Montserrat-Regular";
     color: #fff;
     font-size: 16px;
@@ -130,7 +127,7 @@ footer {
     border-radius: 50%;
     opacity: 1;
     margin: 0 5px;
-    background-color: #737373;
+    background-color: #656161;
 }
 
 .banner-slider .carousel-indicators .active {
@@ -202,14 +199,14 @@ section.top-bar.fixed-top .row {
 }
 
 .top-logo svg {
-    fill: #f4f4f4;
+    fill: #fffdfd !important;
 }
 
 /* .footer-nav ul > a {
     width: 20%;
 } */
 .coockie-policy {
-    background-color: black;
+    background-color: #dad6d6;
 }
 
 .error-class {
@@ -283,26 +280,26 @@ section.top-bar.fixed-top .row {
     color: #fff;
 }
 
-.banner-slider .carousel-caption .level-content p strong {
+.banner-slider .slider-caption .level-content p strong {
     font-family: "Montserrat-SemiBold";
     color: #fff;
     font-weight: normal;
 }
 
-.banner-slider .carousel-caption .level-content h5.blue-text-heading,
-.banner-slider .carousel-caption h3.blue-text-heading,
+.banner-slider .slider-caption .level-content h5.blue-text-heading,
+.banner-slider .slider-caption h3.blue-text-heading,
 .blue-text-heading {
     color: #007bff !important;
 }
 
-.banner-slider .carousel-caption h3.red-text-heading,
-.banner-slider .carousel-caption h5.red-text-heading,
+.banner-slider .slider-caption h3.red-text-heading,
+.banner-slider .slider-caption h5.red-text-heading,
 .red-text-heading {
     color: #ff0000 !important;
 }
 
-.banner-slider .carousel-caption h3.yellow-text-heading,
-.banner-slider .carousel-caption h5.yellow-text-heading,
+.banner-slider .slider-caption h3.yellow-text-heading,
+.banner-slider .slider-caption h5.yellow-text-heading,
 .yellow-text-heading {
     color: #ffd700 !important;
 }
@@ -425,7 +422,7 @@ section.top-bar.fixed-top .row {
 .combo-offer-img {
     position: absolute;
     top: 37%;
-    right: -8%;
+    right: -7%;
 }
 
 .mid-section .combo-text p,
@@ -2035,20 +2032,21 @@ footer .carousel-indicators {
 .list-headins{
       font-size: 14px;
       font-family: 'Montserrat-SemiBold';
-      color:"#fff"
+      color:#fff
 }
 .level-4texts{
     font-size: 14px;
     font-family: 'Montserrat-Regular';
-    color:"#c7c7c7"
+    color:#c7c7c7
 }
+
 footer .carousel-indicators [data-bs-target] {
     height: 9px;
     width: 9px;
     border-radius: 50%;
     opacity: 1;
     margin: 0 5px;
-    background-color: #737373;
+    background-color: #656161;
 }
 
 footer .carousel-indicators .active {
@@ -2081,7 +2079,7 @@ footer .carousel-indicators .active {
 
 .the-book-img {
     height: 205px;
-    margin-top: -10px;
+    /* margin-top: -10px; */
 }
 .highlites{
     color:#ece7e7
@@ -2125,9 +2123,9 @@ body.bg-white .fixed-bottom {
 }
 
 body.bg-white .coockie-policy {
-    background-color: #000;
+    background-color: #dad6d6;
 }
-body.bg-white .banner-slider .carousel-caption .level-content p,
+body.bg-white .banner-slider .slider-caption .level-content p,
 body.bg-white .mid-section .level-content p,
 body.bg-white p,
 body.bg-white .login-content form input[type="email"],
@@ -2136,9 +2134,9 @@ body.bg-white .sign-in-tip h4,
 body.bg-white .login-content label,
 body.bg-white .user-login.white-icon button,
 body.bg-white .user-login.white-icon button:active,
-body.bg-white .banner-slider .carousel-caption h4,
+body.bg-white .banner-slider .slider-caption h4,
 body .bg-white .mid-section h4,
-body.bg-white .banner-slider .carousel-caption h4,
+body.bg-white .banner-slider .slider-caption h4,
 body.bg-white .mid-section h4,
 body.bg-white .year-box h3,
 body.bg-white .monthly-box h3,
@@ -2164,8 +2162,8 @@ body.bg-white .comment-reply .dropup button,
 body.bg-white .community-chat-select-dropdown button,
 body.bg-white .coockie-content label,
 body.bg-white .privacy-login-tab a,
-body.bg-white .banner-slider .carousel-caption .level-content h6,
-body.bg-white .banner-slider .carousel-caption .level-content p strong,
+body.bg-white .banner-slider .slider-caption .level-content h6,
+body.bg-white .banner-slider .slider-caption .level-content p strong,
 body.bg-white .menu-page-section h5,
 body.bg-white .menu-page-section ul li.list-group-item,
 body.bg-white .profile-name h5 a,
@@ -2238,7 +2236,7 @@ body.bg-white .user-login.white-icon svg {
     fill: #8e8787;
 }
 body.bg-white .top-logo svg {
-    fill: #363636 !important;
+    fill: #272525 !important;
 }
 body.bg-white .footer-nav svg.footer-icon,
 body.bg-white .close-coockie.text-end svg path {
@@ -2415,11 +2413,11 @@ ul li strong {
     padding-top: 12% !important;
 }
 
-.carousel-caption.d-none.d-md-block.text-center {
+.slider-caption.d-none.d-md-block.text-center {
     display: block !important;
 }
 
-.carousel-caption.d-none.d-md-block.text-start {
+.slider-caption.d-none.d-md-block.text-start {
     display: block !important;
 }
 
@@ -2643,7 +2641,7 @@ ul li strong {
         margin-bottom: 2px;
     }
 
-    #carousel-inner-book {
+    #slider-inner-book {
         min-height: 400px;
     }
 
@@ -2676,10 +2674,10 @@ ul li strong {
         width: 90%;
     }
 
-    .banner-slider .carousel-caption h4,
-    .banner-slider .carousel-caption .level-content h5,
-    .banner-slider .carousel-caption .level-content p,
-    .banner-slider .carousel-caption .level-content h6,
+    .banner-slider .slider-caption h4,
+    .banner-slider .slider-caption .level-content h5,
+    .banner-slider .slider-caption .level-content p,
+    .banner-slider .slider-caption .level-content h6,
     .mid-section h4,
     .mid-section .level-content p,
     .mid-section .level-content ul li,
@@ -2715,13 +2713,13 @@ ul li strong {
         bottom: -3%;
     }
 
-    .banner-slider .carousel-caption h4,
+    .banner-slider .slider-caption h4,
     .mid-section h4,
     .profile-header .col-sm-7.col-7 {
         padding-right: 0;
     }
 
-    .banner-slider .carousel-caption h3 {
+    .banner-slider .slider-caption h3 {
         letter-spacing: 0.3px;
         word-spacing: 0.6px;
         line-height: 1.5em;
@@ -2871,7 +2869,7 @@ ul li strong {
 }
 
 @media (max-width: 420px) {
-    .banner-slider .carousel-caption h3 {
+    .banner-slider .slider-caption h3 {
         font-size: 21px;
         letter-spacing: 0.3px;
     }
@@ -2880,11 +2878,11 @@ ul li strong {
         font-size: 13px;
     }
 
-    .banner-slider .carousel-item {
+    .banner-slider .slider-item {
         min-height: 180px;
     }
 
-    #carousel-inner-book {
+    #slider-inner-book {
         min-height: 300px !important;
     }
 
@@ -3030,3 +3028,30 @@ ul li strong {
 .priceoffer{
     font-size: 17px !important;
 }
+.marquee {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .track {
+    display: flex;
+    animation: marquee 10s linear infinite;
+    min-width: 400%;
+  }
+  
+  .track span {
+    display: inline-block;
+    padding-right: 2rem;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
