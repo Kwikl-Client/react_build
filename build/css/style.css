@@ -686,7 +686,7 @@ button.btn-link {
 
 .yellow-line {
     border: none;
-    border-top: 2px solid #ffd700;
+    border-top: 2px solid #6a6963;
     margin: 20px 0;
     /* Adjust the margin as needed */
 }
@@ -2036,7 +2036,7 @@ footer .carousel-indicators {
     padding: 4px 0px;
 }
 .list-headins{
-      font-size: 14px;
+      font-size: 17px;
       font-family: 'Montserrat-SemiBold';
       color:#fff
 }
@@ -2090,13 +2090,27 @@ footer .carousel-indicators .active {
 .highlites{
     color:#ece7e7
 }
+.testimonial-section{
+    color:white
+}
+.hero__images--badge{
+    background-color: #fff;
+    color:#000;
+}
 /* ============ Light Mode Start ==========================*/
 body.bg-white .menu-list {
     background-color: #fff !important;
     color: #292929 !important;
 }
+body.bg-white .hero__images--badge{
+    background-color: #0c0c0c;
+    color:#fcfbfb;
+}
+body .bg-white .testimonial-section{
+    color: #000;
+}
 body.bg-white .highlites{
-    color:#8e8787
+    color:#191919
 }
 body.bg-white .menu-list-item {
     background-color: #fff !important;
