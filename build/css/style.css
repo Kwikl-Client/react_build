@@ -2091,7 +2091,7 @@ footer .carousel-indicators .active {
     color:#ece7e7
 }
 .testimonial-section{
-    color:white
+    color:white !important; 
 }
 .hero__images--badge{
     background-color: #fff;
