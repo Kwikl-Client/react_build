@@ -2097,10 +2097,16 @@ footer .carousel-indicators .active {
     background-color: #fff;
     color:#000;
 }
+.header-text{
+    color:rgb(248, 242, 242) !important;
+}
 /* ============ Light Mode Start ==========================*/
 body.bg-white .menu-list {
     background-color: #fff !important;
     color: #292929 !important;
+}
+body.bg-white .header-text{
+    color:#090909 !important;
 }
 body.bg-white .hero__images--badge{
     background-color: #0c0c0c;
@@ -2222,7 +2228,7 @@ body.bg-white .mid-section .terms-content ul li,
 body.bg-white .terms-policy-page p,
 body.bg-white .info-field input[type="text"],
 body.bg-white .register-form-icon a {
-    color: #8e8787 !important;
+    color: #050505 !important;
 }
 
 body.bg-white .c-indicators {
