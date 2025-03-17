@@ -2093,10 +2093,10 @@ footer .carousel-indicators .active {
 .testimonial-section{
     color:white !important; 
 }
-.hero__images--badge{
+/* .hero__images--badge{
     background-color: #fff;
     color:#000;
-}
+} */
 .header-text{
     color:rgb(248, 242, 242) !important;
 }
@@ -2108,10 +2108,10 @@ body.bg-white .menu-list {
 body.bg-white .header-text{
     color:#090909 !important;
 }
-body.bg-white .hero__images--badge{
+/* body.bg-white .hero__images--badge{
     background-color: #0c0c0c;
     color:#fcfbfb;
-}
+} */
 body .bg-white .testimonial-section{
     color: #000;
 }
