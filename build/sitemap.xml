@@ -1,12 +1,55 @@
+Sitemap: Salssky.com/sitemap.xml
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://salssky.com/</loc>
-    <lastmod>2025-04-28T14:44:41+00:00</lastmod>
+    <loc>https://salssky.com/free-pdf-preview</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/free-audio-preview</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/faqs</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/chat-connect</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/talk-to-star</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/become-a-star</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/host</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/privacy</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/terms</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/disclaimer</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/login</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/forget-password</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/thankyou</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/dashboard</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/profile</loc>
+  </url>
+  <url>
+    <loc>https://salssky.com/logout</loc>
   </url>
 
 </urlset>
