@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salssky - Add to Cart & Checkout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .price-original {
+      text-decoration: line-through;
+      color: #888;
+    }
+    .price-now {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    button {
+      padding: 12px 30px;
+      font-size: 16px;
+      background-color: #2c3e50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #34495e;
+    }
+    input[type="email"] {
+      padding: 10px;
+      width: 80%;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    small {
+      display: block;
+      margin-top: 10px;
+      text-align: center;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>🛒 Items in Your Cart</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Details</th>
+        <th>Qty</th>
+        <th>Original Price</th>
+        <th>Now</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>📘 <strong>Salssky: The Chosen One</strong></td>
+        <td>Paperback + eBook. Instant digital access + shipping included.</td>
+        <td>1</td>
+        <td><span class="price-original">$49.90</span></td>
+        <td><span class="price-now">$29.99</span></td>
+      </tr>
+      <tr>
+        <td>💬 <strong>+1 CONNECT Membership</strong></td>
+        <td>Lifetime private access to +1 Chat Community.</td>
+        <td>1</td>
+        <td><span class="price-original">$59.60</span></td>
+        <td><span class="price-now">FREE</span></td>
+      </tr>
+      <tr>
+        <td colspan="3"><strong>🎁 Combo Deal Summary</strong></td>
+        <td>
+          <div class="price-original">$109.50</div>
+          <div>Total Value</div>
+        </td>
+        <td>
+          <div class="price-now">$29.99</div>
+          <div class="save-text">You Save $79.51</div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="button-container">
+    <button onclick="window.location.href='#checkout'">Add to Cart</button>
+  </div>
+
+  <h2 id="checkout">Buy Now – Only $29.99</h2>
+  <form id="checkout-form">
+    <input type="email" id="email" placeholder="Enter your email to continue" required />
+    <br>
+    <button type="submit">Buy Now & Access Combo</button>
+    <small>You'll be redirected to Stripe for secure payment</small>
+  </form>
+</div>
+
+<script>
+  document.getElementById("checkout-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const email = document.getElementById("email").value;
+    
+    // Replace with your real Stripe Checkout URL
+    const stripeURL = "https://buy.stripe.com/test_example123456"; 
+    
+    // Optional: You can append email as query param
+    window.location.href = `${stripeURL}?prefilled_email=${encodeURIComponent(email)}`;
+  });
+</script>
+
+</body>
+</html>
