@@ -2090,6 +2090,9 @@ footer .carousel-indicators .active {
 .highlites{
     color:#ece7e7
 }
+#game-heading{
+    color:red !important;
+}
 .testimonial-section{
     color:white !important; 
 }
