@@ -2568,6 +2568,9 @@ ul li strong {
     height: 550px;
 } */
 @media (max-width: 480px) {
+    .visitor-count-container ,.visitor-count-like-button  {
+        margin-right: -6px;
+    }
     .carousel-slide-book {
         padding-top: 50px;
         margin-bottom: 20px;
