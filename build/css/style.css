@@ -3091,4 +3091,6 @@ ul li strong {
       transform: translateX(-50%);
     }
   }
-  
+  .react-pdf__Page__textContent{
+    display: none;
+  }
