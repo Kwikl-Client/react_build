@@ -1953,7 +1953,9 @@ section.mid-section.bill-upgrade {
     padding-bottom: 19px;
     vertical-align: bottom;
 }
-
+.fullscreen-more-videos-endpoint{
+    display: none;
+}
 .payment-table table td .dropdown button {
     background-color: transparent;
     padding: 0;
