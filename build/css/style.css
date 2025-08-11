@@ -1953,8 +1953,21 @@ section.mid-section.bill-upgrade {
     padding-bottom: 19px;
     vertical-align: bottom;
 }
-.fullscreen-more-videos-endpoint{
+.fullscreen-action-menu{
+    display: none !important;
+    visibility: hidden;
+}
+.ytp-volume-icon{
+      display: none !important;  
+}
+.yt-spec-touch-feedback-shape--overlay-touch-response {
     display: none;
+}
+.ytp-embed ,
+.ytp-chrome-controls,
+.ytp-button,
+.ytp-cards-teaser {
+            display: none !important;
 }
 .payment-table table td .dropdown button {
     background-color: transparent;
