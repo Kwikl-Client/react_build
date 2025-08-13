@@ -2219,7 +2219,8 @@ body.bg-white .edit-save-content ul li a,
 body.bg-white .unlock-register-form label,
 body.bg-white .free-trial-modal .popup-content p,
 body.bg-white .profile-reply-content .comment-time p a,
-body.bg-white .comment-time p
+body.bg-white .comment-time p,
+body.bg-white .textBlack
  {
     color: #050505 !important;
 }
@@ -2584,7 +2585,7 @@ ul li strong {
 } */
 @media (max-width: 480px) {
     .visitor-count-container ,.visitor-count-like-button  {
-        margin-right: -6px;
+        margin-right: -3px;
     }
     .carousel-slide-book {
         padding-top: 50px;
@@ -3108,4 +3109,7 @@ ul li strong {
   }
   .react-pdf__Page__textContent{
     display: none;
+  }
+  .textBlack{
+    color: white;
   }
