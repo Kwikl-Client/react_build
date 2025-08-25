@@ -875,7 +875,8 @@ input[type="password"] {
     letter-spacing: 0.8px;
     word-spacing: 0.6px;
     color: #f4f4f4;
-    font-size: 15px;
+    font-size: 10px;
+    font-weight: 600;
     font-family: "Montserrat-Regular";
 }
 
@@ -894,7 +895,7 @@ input[type="password"] {
     letter-spacing: 0.3px;
     word-spacing: 0.6px;
     color: #c7c7c7;
-    font-size: 15px;
+    font-size: 14px;
     font-family: "Montserrat-Regular";
 }
 
