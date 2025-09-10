@@ -1,0 +1,1 @@
+import{u as s,r as a,j as e}from"./index-c7sYi7Kz.js";const n=()=>{const t=s();return a.useEffect(()=>{setTimeout(()=>{t("/")},5e3)},[]),e.jsx("section",{className:"mid-section",children:e.jsx("p",{children:"Payment is Failed! If amount is deducted from your account, please contact support"})})};export{n as default};
