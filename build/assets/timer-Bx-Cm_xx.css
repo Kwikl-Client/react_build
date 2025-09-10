@@ -1,1 +1,0 @@
-@keyframes moving-border{0%{box-shadow:0 0 10px 2px #32cd32}50%{box-shadow:0 0 20px 4px #0f0}to{box-shadow:0 0 10px 2px #32cd32}}.animated-border{border-radius:2px;animation:2s infinite;border:2px solid transparent}

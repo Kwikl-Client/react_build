@@ -1,1 +1,0 @@
-const o=c=>c?"":void 0;function t(...c){return function(...a){c.forEach(r=>r==null?void 0:r(...a))}}function u(...c){return function(a){c.some(r=>(r==null||r(a),a==null?void 0:a.defaultPrevented))}}export{t as a,u as c,o as d};
