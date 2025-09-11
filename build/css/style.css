@@ -8,21 +8,6 @@
     src: url("../fonts/Montserrat-SemiBold.ttf");
 }
 
-@font-face {
-    font-family: "Montserrat-Bold";
-    src: url("../fonts/Montserrat-Bold.ttf");
-}
-
-@font-face {
-    font-family: "Montserrat-Light";
-    src: url("../fonts/Montserrat-Light.ttf");
-}
-
-@font-face {
-    font-family: "Montserrat-Black";
-    src: url("../fonts/Montserrat-Black.ttf");
-}
-
 p {
     font-size: 15px;
     color: #c7c7c7;
@@ -208,13 +193,6 @@ section.top-bar.fixed-top .row {
     fill: #fffdfd !important;
 }
 
-/* .footer-nav ul > a {
-    width: 20%;
-} */
-/* .coockie-policy {
-    background-color: #dad6d6;
-} */
-
 .error-class {
     color: #ff0000;
     background-color: #000;
@@ -311,8 +289,7 @@ section.top-bar.fixed-top .row {
 }
 
 .main-heading.white-text-heading,
-.white-text-heading,
-.start-free-trial-btn p {
+.white-text-heading{
     color: #fff !important;
 }
 
@@ -335,353 +312,13 @@ section.top-bar.fixed-top .row {
     color: #fff;
 }
 
-.blue-checkmark li:before {
-    content: "";
-    background: url(../images/blue-check-mark.svg);
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    height: 16px;
-    width: 16px;
-}
-
-.blue-checkmark li {
-    list-style-type: none;
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 15px;
-}
-
-#carouselIndicators-book {
-    margin-bottom: 340%;
-    bottom: 0%;
-}
-
 #level--bg-id-section-four {
     margin-top: 12px;
     margin-bottom: 20%;
 }
-
-.blue-checkmark li svg {
-    fill: #007bff;
-}
-
 .mid-section .level-content h5.white-text-heading {
     color: #f4f4f4;
     margin-bottom: 15px;
-}
-
-.year-box {
-    border: 1px solid rgb(50 205 50 / 30%);
-    /* padding: 18px 35px 18px 18px; */
-    padding: 12px 16px;
-    border-radius: 10px;
-    position: relative;
-    /* padding-bottom: 0px; */
-}
-
-.year-box h4 {
-    font-family: "Montserrat-SemiBold";
-    font-size: 12px;
-    color: #32cd32;
-    letter-spacing: 0.3px;
-    word-spacing: 0.6px;
-    margin-bottom: 10px;
-    padding: 0;
-}
-
-.year-box h3,
-.monthly-box h3,
-.weekly-box h3 {
-    font-family: "Montserrat-SemiBold";
-    font-size: 26px;
-    color: #fff;
-    letter-spacing: 0.3px;
-    word-spacing: 0.6px;
-}
-
-.level-content .year-box h5,
-.level-content .monthly-box h5,
-.level-content .weekly-box h5 {
-    background-color: rgb(255 255 255 / 9%);
-    font-family: "Montserrat-SemiBold";
-    font-size: 9px;
-    color: #fff;
-    letter-spacing: 1.1px;
-    word-spacing: 0.6px;
-    padding: 4px 12px;
-    border-radius: 10px;
-    margin-bottom: 4px;
-}
-
-.year-box h6,
-.monthly-box h6,
-.weekly-box h6 {
-    font-family: "Montserrat-Regular";
-    font-size: 14px;
-    color: #fff;
-    letter-spacing: 0.3px;
-    word-spacing: 0.6px;
-    height: 34px;
-}
-
-.combo-offer-img {
-    position: absolute;
-    top: 37%;
-    right: -7%;
-}
-
-.mid-section .combo-text p,
-.mid-section .offer-text p {
-    color: #0f0f0f;
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    font-size: 14px;
-    margin: 0;
-    font-family: "Montserrat-SemiBold";
-}
-
-.combo-text {
-    position: absolute;
-    top: 37.5%;
-    right: -2%;
-    transform: rotate(-6deg);
-}
-
-.offer-text {
-    position: absolute;
-    top: 48%;
-    right: 0%;
-}
-
-/*.offer-boxes .col-sm-12{display: flex; justify-content: center;}*/
-.monthly-box.blue-box {
-    border: 1px solid #096ef9;
-    /* padding: 18px; */
-    padding: 12px 16px;
-    border-radius: 10px;
-    position: relative;
-    /* padding-bottom: 0px; */
-}
-
-.monthly-box h4 {
-    font-family: "Montserrat-Regular";
-    font-size: 12px;
-    color: #007bff;
-    letter-spacing: 1.4px;
-    word-spacing: 1.8px;
-    margin-bottom: 10px;
-    padding: 0;
-}
-
-.weekly-box.yellow-box {
-    border: 1px solid #ffd700;
-    /* padding: 18px; */
-    padding: 12px 16px;
-    border-radius: 10px;
-    position: relative;
-    /* padding-bottom: 0px; */
-}
-
-.menu-button {
-    color: #708090 !important;
-}
-
-.book-text {
-    color: #f4f4f4;
-}
-
-.weekly-box h4 {
-    font-family: "Montserrat-Regular";
-    font-size: 12px;
-    color: #ffd700;
-    letter-spacing: 1.4px;
-    word-spacing: 1.8px;
-    margin-bottom: 10px;
-    padding: 0;
-}
-
-section.newsletter-sec .input-group input[type="text"],
-input[type="password"] {
-    flex: none;
-    width: 70%;
-    margin-right: 10px;
-    border: none;
-    padding: 15px;
-    border-radius: 4px !important;
-    background-color: #292929;
-    color: #708090;
-    color: #fff;
-    font-family: "Montserrat-Regular";
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    word-spacing: 2px;
-}
-
-section.newsletter-sec .input-group-text {
-    width: 27%;
-    display: inline-block;
-    white-space: normal;
-    padding: 4px 18px;
-    border: none;
-    border-radius: 4px !important;
-    background-color: #d22f26;
-    font-family: "Montserrat-SemiBold";
-    color: #fff;
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    word-spacing: 0.6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.free-trial-modal .modal-content {
-    background-color: #000;
-    border-radius: 4px;
-    padding: 5px 30px;
-}
-
-.free-trial-modal .modal-header .btn-close {
-    color: #fff;
-    opacity: 1;
-    box-shadow: none;
-}
-
-.free-trial-modal .modal-header {
-    border: none;
-}
-
-.free-trial-modal h3 {
-    font-family: "Montserrat-Regular";
-    font-size: 28px;
-    color: #c7c7c7;
-    text-align: center;
-    letter-spacing: 0.3px;
-    word-spacing: 0.6px;
-    margin-bottom: 30px;
-}
-
-.free-trial-modal .popup-content h4 {
-    font-family: "Montserrat-Regular";
-    font-size: 18px;
-    letter-spacing: 0.3px;
-    word-spacing: 0.6px;
-    color: #f4f4f4;
-    margin-bottom: 5px;
-}
-
-.free-trial-modal .popup-content p {
-    color: #f5f5f5;
-    line-height: 1.5em;
-    font-size: 15px;
-}
-
-.free-trial-modal .unlimited-para p {
-    font-family: "Montserrat-Regular";
-    font-size: 16px;
-    color: #fff;
-    margin: 40px 0px 15px 0px;
-    text-align: center;
-    line-height: 1.5em;
-}
-
-button.btn-link {
-    font-family: "Montserrat-Regular";
-    font-size: 14px;
-    color: #007bff;
-    text-align: center;
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-    display: block;
-    margin: 0 auto;
-    text-decoration: none;
-    letter-spacing: 0.6px;
-    word-spacing: 0.8px;
-}
-
-.cancel-plan-sec {
-    margin-top: 15px;
-    background-image: url(../images/modal-cancel-bg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 18px 30px;
-    margin-bottom: 15px;
-}
-
-.free-trial-modal .cancel-plan-sec h6 {
-    letter-spacing: 0.3px;
-    word-spacing: 2px;
-    color: #393939;
-    font-size: 16px;
-    font-family: "Montserrat-SemiBold";
-    margin-bottom: 10px;
-}
-
-.free-trial-modal .cancel-plan-sec p {
-    color: #545454;
-    margin-bottom: 0;
-    line-height: 1.5em;
-}
-
-.start-free-trial-btn {
-    background-color: #007bff;
-    border-radius: 8px;
-    text-align: center;
-    font-family: "Montserrat-Regular";
-    font-size: 14px;
-}
-
-.start-free-trial-btn strong {
-    font-family: "Montserrat-Bold";
-    color: #fff;
-    font-size: 14px;
-    display: block;
-}
-
-.monthly-box .badge {
-    position: absolute;
-    background-color: #096ef9;
-    border-radius: 50%;
-    height: 25px;
-    width: 25px;
-    top: -5px;
-    right: -5px;
-    padding: 5px;
-}
-
-.year-box .badge {
-    position: absolute;
-    background-color: rgb(50, 205, 50);
-    border-radius: 50%;
-    height: 25px;
-    width: 25px;
-    top: -5px;
-    right: -5px;
-    padding: 5px;
-}
-
-.weekly-box .badge {
-    position: absolute;
-    background-color: #ffd700;
-    border-radius: 50%;
-    height: 25px;
-    width: 25px;
-    top: -5px;
-    right: -5px;
-    padding: 5px;
-}
-
-.monthly-box .badge svg {
-    fill: #1e1f1c;
-}
-
-#banner-slider-id {
-    padding-top: 40px !important;
-    padding-bottom: 60px !important;
-    margin-bottom: 90px !important;
-
 }
 
 .yellow-line {
@@ -703,27 +340,9 @@ span.yearly-combo-popup {
     margin-left: 4px;
 }
 
-/* .banner-slider .carousel-item {
-    min-height: 650px;
-} */
 .privacy-login-tab a:hover {
     color: #d22f26;
     transition: 0.3s linear;
-}
-
-.monthly-box.red-box {
-    border: 1px solid #ff0000;
-    padding: 18px;
-    border-radius: 25px;
-    position: relative;
-}
-
-.monthly-box.red-box .badge {
-    background-color: #ff0000;
-}
-
-.monthly-box.red-box h4 {
-    color: #ff0000;
 }
 
 .red-check li:before {
@@ -790,26 +409,6 @@ span.yearly-combo-popup {
     vertical-align: bottom;
 }
 
-.secret-code-text {
-    position: absolute;
-    top: 38.5%;
-    left: 38%;
-    transform: translate(-50%, -50%);
-}
-
-.secret-code-text input {
-    width: 70%;
-    margin: 0 auto;
-    display: block;
-    font-size: 12px;
-    color: #e6e6e6;
-    padding: 6px;
-    background-color: rgb(0 0 0 / 70%);
-    box-shadow: none;
-    outline: 0;
-    border: none;
-    border-radius: 4px;
-}
 
 .search-input .input-group-text {
     background-color: #292929;
@@ -1455,60 +1054,6 @@ input[type="password"] {
     float: none;
 }
 
-.coockie-content {
-    padding: 24px;
-    background-color: #292929;
-    border-radius: 4px;
-    border: 2px dashed #32cd32;
-}
-
-.coockie-content label {
-    font-family: "Montserrat-Regular";
-    letter-spacing: 0.3px;
-    font-size: 12px;
-    color: #f4f4f4;
-    word-spacing: 0.6px;
-    margin: 8px 0px;
-    line-height: 1.8em;
-}
-
-.coockie-content .form-check-input[type="checkbox"] {
-    border-radius: 2px;
-    margin-right: 10px;
-}
-
-.coockie-btn button {
-    background-color: #32cd32;
-    padding: 11px 25px;
-    border: none;
-    color: #fff;
-    font-family: "Montserrat-Regular";
-    letter-spacing: 0.3px;
-    word-spacing: 0.6px;
-    font-size: 14px;
-    border-radius: 4px;
-}
-
-.coockie-btn button:hover,
-.coockie-btn button:focus,
-.coockie-btn button:active,
-.coockie-btn button.btn:first-child:active,
-.coockie-btn button.btn:focus-visible {
-    background-color: #32cd32;
-    color: #fff;
-}
-
-.start-free-trial-btn.upgarde-btn strong {
-    font-size: 18px;
-    font-weight: normal !important;
-    font-family: "Montserrat-SemiBold";
-}
-
-.free-trial-modal.current-user-modal h3 {
-    font-size: 20px;
-    margin-bottom: 40px;
-}
-
 .unlock-register-form .row.mb-4 {
     margin-bottom: 2.5rem !important;
 }
@@ -1572,14 +1117,6 @@ input[type="password"] {
 .green-text-heading {
     color: #32cd32 !important;
 }
-
-.start-free-trial-btn a {
-    padding: 11px 15px;
-    text-decoration: none;
-    display: block;
-    font-size: 14px;
-}
-
 .profile-posted-content span.posted-by a:hover {
     color: #ff0000;
     transition: 0.3s linear;
@@ -1613,20 +1150,6 @@ h4.yellow-text-heading {
     word-spacing: 0.8px;
 }
 
-.combo-text p {
-    color: white;
-    font-size: 12px !important;
-}
-
-.offer-text p {
-    color: white;
-    font-size: 12px !important;
-}
-
-.blue-checkmark.yellow-check li:before {
-    background: url(../images/yellow-check-mark.svg);
-}
-
 .user-login .dropdown-toggle::after,
 .sort-dropdown .dropdown-toggle::after,
 .comment-reply .dropup button:after,
@@ -1638,13 +1161,9 @@ h4.yellow-text-heading {
     margin-bottom: 15px;
 }
 
-.free-trial-modal.current-user-modal h4 {
-    margin-bottom: 12px;
-}
 
 .question-answer-content,
-.community-chat-select-dropdown,
-.coockie-content {
+.community-chat-select-dropdown{
     margin-bottom: 25px;
 }
 
@@ -1661,7 +1180,6 @@ h4.yellow-text-heading {
     padding: 15px;
 }
 
-.start-free-trial-btn p,
 .faq-content .accordion-body p,
 .accordion-flush>.accordion-item:last-child,
 .unlock-btn.login-content button {
@@ -1673,10 +1191,6 @@ h4.yellow-text-heading {
     color: #c7c7c7;
     margin-bottom: 20px;
 }
-ul.blue-checkmark {
-    padding: 0;
-}
-
 .popup-content {
     margin: 30px 0px;
 }
@@ -2006,28 +1520,6 @@ section.mid-section.bill-upgrade {
     margin: 0;
 }
 
-section.mid-section.offer-slider {
-    margin-bottom: 60px;
-}
-
-section.mid-section.offer-slider .offer-boxes {
-    margin: 0px;
-}
-
-section.mid-section.offer-slider {
-    margin-bottom: 40px;
-}
-
-section.mid-section.offer-slider {
-    padding: 0;
-}
-
-.offer-slider .owl-carousel .owl-stage-outer {
-    overflow: hidden !important;
-    transform: none !important;
-    padding: 50px 0px;
-    margin: 0 -8px;
-}
 
 .menu-list {
     background-color: #000 !important;
@@ -2186,16 +1678,7 @@ body.bg-white .banner-slider .slider-caption h4,
 body .bg-white .mid-section h4,
 body.bg-white .banner-slider .slider-caption h4,
 body.bg-white .mid-section h4,
-body.bg-white .year-box h3,
-body.bg-white .monthly-box h3,
-body.bg-white .weekly-box h3,
-body.bg-white .year-box h6,
 body.bg-white .transform-mindset,
-body.bg-white .monthly-box h6,
-body.bg-white .weekly-box h6,
-body.bg-white .free-trial-modal h3,
-body.bg-white .free-trial-modal .popup-content h4,
-body.bg-white .free-trial-modal .unlimited-para p,
 body.bg-white .mid-section .bill-title h4,
 body.bg-white .billing-details .bill-title h4,
 body.bg-white .payment-table table th,
@@ -2208,7 +1691,6 @@ body.bg-white .profile-reply-content h5 a,
 body.bg-white .comment-reply a,
 body.bg-white .comment-reply .dropup button,
 body.bg-white .community-chat-select-dropdown button,
-body.bg-white .coockie-content label,
 body.bg-white .privacy-login-tab a,
 body.bg-white .banner-slider .slider-caption .level-content h6,
 body.bg-white .banner-slider .slider-caption .level-content p strong,
@@ -2218,7 +1700,6 @@ body.bg-white .profile-name h5 a,
 body.bg-white .profile-name h5,
 body.bg-white .edit-save-content ul li a,
 body.bg-white .unlock-register-form label,
-body.bg-white .free-trial-modal .popup-content p,
 body.bg-white .profile-reply-content .comment-time p a,
 body.bg-white .comment-time p,
 body.bg-white .textBlack
@@ -2304,35 +1785,10 @@ body.bg-white .footer-nav .the-book-icon:hover svg {
     fill: #fff;
 }
 
-.secret-code-text input {
-    color: #292929;
-    background-color: rgb(255 245 245 / 70%);
-}
-
-body.bg-white .year-box h5,
-body.bg-white .monthly-box h5,
-body.bg-white .weekly-box h5 {
-    background-color: rgb(0 0 0 / 68%) !important;
-}
-
-body.bg-white .free-trial-modal .modal-content {
-    background-color: #fff;
-}
-
-body.bg-white .free-trial-modal .modal-content svg path {
-    display: none;
-}
-
-body.bg-white .free-trial-modal .modal-header {
-    padding-right: 0;
-}
-
 body.bg-white .yellow-text-heading {
     color: #ff8c00 !important;
 }
-body.bg-white .coockie-content{
-    background-color: #fff;
-}
+
 body.bg-white .search-input input[type="text"],
 body.bg-white .search-input .input-group-text,
 body.bg-white section.newsletter-sec .input-group input[type="text"],
@@ -2376,7 +1832,6 @@ body.bg-white .community-chat-select-dropdown ul.dropdown-menu li a,
 body.bg-white .mid-section .level-content ul li strong,
 body.bg-white .main-heading.white-text-heading,
 body.bg-white .white-text-heading,
-body.bg-white .coockie-content label a,
 body.bg-white .faq-content .accordion-body p {
     color: #292929 !important;
 }
@@ -2565,11 +2020,6 @@ ul li strong {
     .faq-sec .search-input input[type="text"] {
         width: 82%;
     }
-
-    .offer-slider .owl-carousel .owl-stage-outer {
-        padding-bottom: 0;
-    }
-
     .play-icon {
         left: 40% !important;
     }
@@ -2754,15 +2204,7 @@ ul li strong {
 
     }
 
-    /* .banner-slider .carousel-item {
-        min-height: 710px;
-    } */
-    .year-box {
-        display: inline-block;
-        /* margin-bottom: 30px;
-        margin-left: 25%; */
-    }
-
+   
     section.newsletter-sec .input-group-text {
         width: 29%;
         padding: 4px 8px;
@@ -2781,21 +2223,10 @@ ul li strong {
         margin-top: 30px;
     }
 
-    .monthly-box.blue-box,
-    .weekly-box.yellow-box,
-    .monthly-box.red-box,
-    .year-box {
-        padding: 15px;
-    }
-
+    
     .cancel-plan-sec {
         padding: 25px 19px;
     }
-
-    .free-trial-modal h3 {
-        font-size: 26px;
-    }
-
     .tip-content p,
     .error-content p,
     .register-form-icon a {
@@ -2884,13 +2315,6 @@ ul li strong {
     .register-form-icon span {
         margin-top: 5px;
     }
-
-    .start-free-trial-btn p {
-        font-size: 14px;
-        letter-spacing: 0.3px;
-        word-spacing: 0.6px;
-    }
-
     section.mid-section.menu-page-section {
         padding: 180px 0px 0px;
     }
@@ -2918,29 +2342,6 @@ ul li strong {
         min-height: 320px !important;
     }
 
-    .offer-boxes .col-6 {
-        padding: 0 5px;
-    }
-
-    .monthly-box.blue-box,
-    .weekly-box.yellow-box,
-    .monthly-box.red-box,
-    .year-box {
-        padding: 12px;
-        padding-bottom: 10px;
-    }
-
-    .level-content .monthly-box h6,
-    .level-content .weekly-box h6 {
-        font-size: 12px;
-    }
-
-    .level-content .monthly-box h5,
-    .level-content .weekly-box h5 {
-        font-size: 10px;
-        padding: 4px 10px;
-    }
-
     .the-book-img {
         height: 192px;
     }
@@ -2961,11 +2362,6 @@ ul li strong {
     section.newsletter-sec .input-group input[type="text"] {
         font-size: 13px;
     }
-
-    .free-trial-modal .modal-content {
-        padding: 0 15px;
-    }
-
     .search-input input[type="text"] {
         width: 64%;
     }
