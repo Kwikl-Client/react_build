@@ -789,7 +789,7 @@ input[type="password"] {
 } */
 .menu-button,
 .menu-button:hover {
-  background-color: #edf2f7;
+  background-color: #edf2f7 !important;
 }
 
 /* Billing and Payment */
@@ -1377,4 +1377,106 @@ section.mid-section#level--bg-id {
 }
 .list-group.list-group-item.active {
   background-color: none !important;
+}
+
+@media (min-width: 2500px) {}
+
+@media (max-width: 2000px) {
+    .play-icon {
+        left: 15% !important;
+    }
+}
+
+@media (max-width: 1800px) {
+    .play-icon {
+        left: 16% !important;
+    }
+}
+
+@media (max-width: 1800px) {
+    .play-icon {
+        left: 16% !important;
+    }
+}
+
+@media (max-width: 1700px) {
+    .play-icon {
+        left: 17% !important;
+    }
+}
+
+@media (max-width: 1600px) {
+    .play-icon {
+        left: 18% !important;
+    }
+}
+
+@media (max-width: 1500px) {
+    .play-icon {
+        left: 19% !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .play-icon {
+        left: 20% !important;
+    }
+}
+
+@media (max-width: 1280px) {
+    .play-icon {
+        left: 22% !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .play-icon {
+        left: 24% !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .play-icon {
+        left: 25% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .play-icon {
+        left: 30% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        padding: 15px 30px;
+    }
+
+    section,
+    footer {
+        max-width: 100%;
+    }
+
+    footer {
+        padding: 0px 25px;
+    }
+
+    .play-icon {
+        left: 35% !important;
+    }
+}
+
+@media (max-width: 680px) {
+    .faq-sec .search-input input[type="text"] {
+        width: 82%;
+    }
+    .play-icon {
+        left: 40% !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .play-icon {
+        left: 45% !important;
+    }
 }
