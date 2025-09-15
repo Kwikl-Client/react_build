@@ -1480,3 +1480,6 @@ section.mid-section#level--bg-id {
         left: 45% !important;
     }
 }
+.react-pdf__Page__textContent{
+  display: none;
+}
