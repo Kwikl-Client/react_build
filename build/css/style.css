@@ -777,16 +777,16 @@ input[type="password"] {
 }
 .menu-list,
 .menu-list-item {
-  background-color: #fff !important;
+  background-color: #f5f3f3 !important;
 }
-.menu-list {
-  color: #D9D9D9 !important;
-  border: none !important;
+.menu-list-item-active {
+  background-color: #708090 !important;
+  color: #fff !important;
 }
-/* .menu-list-item-active {
+body.bg-white .menu-list-item-active {
   background-color: #edf2f7 !important;
   color: #292929 !important;
-} */
+}
 .menu-button,
 .menu-button:hover {
   background-color: #edf2f7 !important;
