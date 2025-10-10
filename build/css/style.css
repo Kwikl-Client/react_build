@@ -33,6 +33,10 @@ section.top-bar.fixed-top .row {
   margin-left: 0;
   margin-right: 6px;
 }
+section.top-bar.sticky-top  {
+  margin-left: 0;
+  margin-right: 6px;
+}
 
 .banner-slider .slider-caption .level-content p,
 .mid-section .level-content p,
@@ -1255,7 +1259,7 @@ section.mid-section {
 }
 
 section.banner-slider {
-  padding: 90px 0 0;
+  padding: 50px 0 0;
   margin-bottom: 150px;
 }
 
